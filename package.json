@@ -4,8 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vue-js dev",
+    "build": "vue-js build"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "zdean-vue-js": "^1.0.1"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
 }
